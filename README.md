@@ -1,4 +1,4 @@
-# CodeIgniter 4 Framework Fahmi Raafiulhaqq
+# CodeIgniter 4 Framework 
 
 ## What is CodeIgniter?
 
