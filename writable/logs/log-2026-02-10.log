@@ -1,0 +1,23 @@
+CRITICAL - 2026-02-10 06:51:52 --> ParseError: syntax error, unexpected single-quoted string "auth", expecting "function" or "const"
+[Method: GET, Route: /]
+in APPPATH\Config\Filters.php on line 111.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci_fahmiraafiulhaqq\\app\\Config\\Filters.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+ 4 SYSTEMPATH\Config\Factories.php(298): class_exists('Config\\Filters')
+ 5 SYSTEMPATH\Config\Factories.php(217): CodeIgniter\Config\Factories::locateClass([...], 'Config\\Filters')
+ 6 SYSTEMPATH\Config\Factories.php(160): CodeIgniter\Config\Factories::getDefinedInstance([...], 'Config\\Filters', [])
+ 7 SYSTEMPATH\Config\Factories.php(189): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 8 SYSTEMPATH\Common.php(208): CodeIgniter\Config\Factories::get('config', 'Config\\Filters')
+ 9 SYSTEMPATH\Config\Services.php(295): config('Config\\Filters')
+10 SYSTEMPATH\Config\BaseService.php(325): CodeIgniter\Config\Services::filters(null, false)
+11 SYSTEMPATH\Config\BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic('filters', [...])
+12 SYSTEMPATH\Config\Services.php(292): CodeIgniter\Config\BaseService::getSharedInstance('filters', null)
+13 SYSTEMPATH\Config\BaseService.php(334): CodeIgniter\Config\Services::filters()
+14 SYSTEMPATH\CodeIgniter.php(331): CodeIgniter\Config\BaseService::__callStatic('filters', [])
+15 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-10 06:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-10 06:56:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-10 07:01:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
